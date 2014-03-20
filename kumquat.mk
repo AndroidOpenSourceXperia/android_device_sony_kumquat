@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/init.st-ericsson.usb.rc:root/init.st-ericsson.usb.rc
 
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
    $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
 
 # Recovery bootstrap (device-specific part)
