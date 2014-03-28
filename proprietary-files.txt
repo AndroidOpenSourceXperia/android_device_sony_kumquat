@@ -2,7 +2,6 @@ bin/at_core
 bin/blue-up.sh
 bin/cg2900-channel_init.sh
 bin/chargemon
-bin/cn_server
 bin/cops_cmd
 bin/copsdaemon
 bin/lbsd
