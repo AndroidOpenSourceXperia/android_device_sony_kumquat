@@ -12,21 +12,21 @@ busybox echo '0' > /sys/class/leds/r-key-green/brightness
 busybox echo '0' > /sys/class/leds/r-key-blue/brightness
 
 # In animaton
-for i in $(seq 0 3 255)
+for i in $(/sbin/busybox seq 0 3 255)
 do
     busybox echo $i > /sys/class/leds/l-key-red/brightness
     busybox echo $i > /sys/class/leds/m-key-red/brightness
     busybox echo $i > /sys/class/leds/r-key-red/brightness
 done 
 
-for i in $(seq 0 3 255)
+for i in $(/sbin/busybox seq 0 3 255)
 do
     busybox echo $i > /sys/class/leds/l-key-green/brightness
     busybox echo $i > /sys/class/leds/m-key-green/brightness
     busybox echo $i > /sys/class/leds/r-key-green/brightness
 done 
 
-for i in $(seq 0 3 255)
+for i in $(/sbin/busybox seq 0 3 255)
 do
     j=$((255 - $i))
     
@@ -39,7 +39,7 @@ done
 busybox echo '50' > /sys/class/timed_output/vibrator/enable
 
 # Out animaton
-for i in $(seq 0 3 255)
+for i in $(/sbin/busybox seq 0 3 255)
 do
     j=$((255 - $i))
     
