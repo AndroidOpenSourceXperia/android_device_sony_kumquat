@@ -19,7 +19,7 @@ on boot
     chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/pattern_duration_secs
     chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/pattern_use_softdim
     chown system system /sys/devices/platform/nmk-i2c.2/i2c-2/2-0040/dim_time
-    chmod 777 /data/lightservice.soc
+    chown system system /data/lightservice.soc
 
 # Sony Illumination Service
 service illumination /system/bin/illumination_service
