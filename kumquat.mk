@@ -93,6 +93,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.hwui.layer_cache_size=7 \
   ro.hwui.path_cache_size=2 \
   ro.sf.lcd_density=240 \
-  ro.config.low_ram=true
-
-
+  ro.config.low_ram=true \
+  dalvik.vm.jit.codecachesize=0
