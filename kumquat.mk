@@ -39,6 +39,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/prebuilt/bootanimation.zip:system/media/bootanimation.zip
 $(call inherit-product, $(LOCAL_PATH)/prebuilt/resources-480x854.mk)
 
+# Illumination Fix
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/config/led_fix.sh:system/bin/led_fix.sh
+
 # TWRP
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/config/twrp.fstab:recovery/root/etc/twrp.fstab
