@@ -85,9 +85,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ste.video.decoder.max.res=720p \
   ste.video.decoder.h264.max.lev=3.2
 
-# Light HAL useful for Illumination Bar
-PRODUCT_PACKAGES += \
-   lights.montblanc
 
 # Device specific proprieties
 # References: 
