@@ -158,9 +158,6 @@
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
-
-    <!--  Maximum number of supported users -->
-    <integer name="config_multiuserMaximumUsers">2</integer>
     
     <!-- Whether WiFi display is supported by this device.
          There are many prerequisites for this feature to work correctly.
